@@ -1,0 +1,79 @@
+.signUp .card {
+  height: 268px;
+  padding: 10px;
+  border-radius: 38px;
+  background-color: #7cc576;
+}
+.deal {
+  height: 450px;
+}
+
+.rectangle {
+  height: 258px;
+  width: 452px;
+  background-color: #7cc576;
+  border-top-right-radius: 30px;
+  -webkit-border-top-right-radius: 36px;
+  border-bottom-right-radius: 146px;
+  -webkit-border-bottom-right-radius: 146px;
+}
+
+.green {
+  background-color: #7cc576 !important;
+}
+
+.bossBaby {
+  background-color: #7cc576;
+  height: 200px;
+  text-align: center;
+  color: white;
+  padding: 10px;
+}
+.babyPic {
+  position: relative;
+  left: 0;
+  z-index: 1;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.subTitle {
+  font-size: 18px;
+  color: #b0b0b0;
+  text-align: center;
+  padding-left: 15rem;
+  padding-right: 15rem;
+}
+.title {
+  padding-left: 3rem;
+}
+
+@media screen and (max-width: 992px) {
+  .subTitle {
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+  .title {
+    padding-left: 0rem;
+  }
+  .card-deck .card {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  .container-fluid .col-6 {
+    max-width: 51%;
+  }
+  .bossBaby {
+    width: 29rem;
+    height: auto;
+  }
+  .signUp .card {
+    height: 331px;
+    width: 435px;
+  }
+
+  .text {
+    margin-left: -4rem;
+    margin-right: 4rem;
+  }
+}
